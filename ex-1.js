@@ -1,6 +1,5 @@
-let sum = 0;
-
- function addUp(n) {
+function addUp(n) {
+    let sum = 0;
     for(let i = 1; i <= n; i++) {
         sum = sum + i;
     }
