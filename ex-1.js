@@ -1,4 +1,3 @@
-let n = 4;
 let sum = 0;
 
  function addUp(n) {
@@ -8,4 +7,4 @@ let sum = 0;
     return sum;
  }
 
- console.log(addUp(n));
+ console.log(addUp(4));
