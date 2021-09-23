@@ -5,9 +5,8 @@ function compare(a, b) {
 const tab = [5, 8, 2, 9, 4, 7, 3];
 
 function minMax() {
-    const tab2 = tab.sort(compareNr);
+    const tab2 = tab.sort(compare);
     return "Min: " + tab2[0] + " Max: " + tab[tab2.length - 1];
     
 }
-
 console.log(minMax());
