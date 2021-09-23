@@ -4,7 +4,7 @@ function compare(a, b) {
 
 function minMax(arr) {
     const tab2 = Array.from(arr);
-    tab2.sort(compare);
+    tab2.sort((a, b) => a - b);
     return "Min: " + tab2[0] + " Max: " + tab2[tab2.length - 1];
     
 }
