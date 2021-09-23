@@ -2,11 +2,13 @@ function compare(a, b) {
     return a - b;
 }
 
-const tab = [5, 8, 2, 9, 4, 7, 3];
-
-function minMax() {
-    const tab2 = tab.sort(compare);
-    return "Min: " + tab2[0] + " Max: " + tab[tab2.length - 1];
+function minMax(arr) {
+    const tab2 = Array.from(arr);
+    tab2.sort(compare);
+    return "Min: " + tab2[0] + " Max: " + tab2[tab2.length - 1];
     
 }
-console.log(minMax());
+
+console.log(minMax([1, 2, 3, 4, 5]));
+console.log(minMax([2334454, 5]));
+console.log(minMax([1]));
