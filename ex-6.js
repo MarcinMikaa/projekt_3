@@ -12,7 +12,7 @@ function danceConvert(pin) {
         let index = help % array.length;
         newPin.push(array[index]);
 
-        if(newPin[i] == "") {
+        if(newPin[i] == undefined) {
             return "Invalid input";
         }
     }
