@@ -1,7 +1,3 @@
-function compare(a, b) {
-    return a - b;
-}
-
 function minMax(arr) {
     const tab2 = Array.from(arr);
     tab2.sort((a, b) => a - b);
